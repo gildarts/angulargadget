@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <h1 class="display-1">
+        <i class="fa fa-bell"></i>{{head}}
+    </h1>
+
+    <ul>
+        <li *ngFor="let lang of langs">{{lang}}</li>
+    </ul>
+
+    <div *ngIf="loading" class="alert alert-info">資料載入中...</div>
+
+    <div *ngIf="!loading">
+        <div *ngIf="!error">
+            <h2 class="alert alert-success">已連接: {{accessPoint}}</h2>
+            <h2>學校資訊：</h2>
+            <pre class="alert alert-success">{{schoolInfo | json}}</pre>
+        </div>
+        <pre *ngIf="error" class="alert alert-danger">發生錯誤：<br/>{{error | json}}</pre>
+    </div>
+</div>
