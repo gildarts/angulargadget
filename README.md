@@ -15,5 +15,5 @@ Angular Gadget
 * 連到 `http://localhost:4200` 開始 Debug。
 
 ## 部署
-* ‘yarn build‘
+* `yarn build`
 * 把 dist 目錄所有檔案部署出去。
