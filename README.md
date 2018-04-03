@@ -1,6 +1,9 @@
 Angular Gadget
 ====
 
+## Gadget 清單
+* `25c70b56-4c70-4336-b74b-ef12d43064de` 線上點名
+
 ## 前置要求
 * 安裝 Node.js
 * 安裝 Yarn (建議安裝)
@@ -20,7 +23,7 @@ Angular Gadget
 
 ## Questions
 ### 如何放置 Gadget 專有資源，例如圖片、Word 檔…  
-將檔案放到 `src/assets` 裡面即可，例如檔案「`src/assets/img/icon.png`」實際路徑是「`assets/img/icon.png`」。
+將檔案放到 `src/assets` 裡面即可，例如檔案「`src/assets/img/icon.png`」實際路徑是「`assets/img/icon.png`」。
 
 ### 如何加入 JQuery
 通常在 angualr 不使用 jquery，但仍然可以使用，先「`yarn add jquery`」安裝 jquery，然後在「`.angular-cli.json`」加入設定。
