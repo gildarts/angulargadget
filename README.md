@@ -26,7 +26,7 @@ Angular Gadget
 將檔案放到 `src/assets` 裡面即可，例如檔案「`src/assets/img/icon.png`」實際路徑是「`assets/img/icon.png`」。
 
 ### 如何加入 JQuery
-通常在 angualr 不使用 jquery，但仍然可以使用，先「`yarn add jquery`」安裝 jquery，然後在「`.angular-cli.json`」加入設定。
+通常在 angualr 不使用 jquery，但仍然可以使用，先「`yarn add jquery`」安裝 jquery，然後在「`.angular.json`」加入設定。
 ```json
 ...
     "scripts": [
